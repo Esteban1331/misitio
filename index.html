@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <!-- Enlazar el CDN de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Estilos CSS internos para la página -->
+    <style>
+        body {
+            background-color: #ffffff; /* Fondo blanco */
+            color: #000000; /* Texto negro */
+        }
+        .navbar {
+            background-color: #58B2AF; /* Color del menú */
+        }
+        .jumbotron {
+            background-image: url('https://cdn.pixabay.com/photo/2018/09/27/09/22/artificial-intelligence-3706562_1280.jpg');
+            background-size: cover;
+            background-blur: blur(5px); /* Efecto de marca de agua */
+            color: #ffffff; /* Texto blanco en el jumbotron */
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación (menú) -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="equipo.html">Equipo</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Noticias</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron con la imagen y texto alusivo -->
+    <div class="jumbotron text-center">
+        <h1>Mi Sitio Web</h1>
+        <p>¡Bienvenido a nuestro sitio web!</p>
+    </div>
+
+    <!-- Contenido principal de la página -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Información Principal</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor turpis eget dapibus. Vivamus vel urna vel velit malesuada bibendum. Sed ullamcorper ligula vel posuere.</p>
+                <p>Aliquam erat volutpat. Integer euismod, quam non euismod feugiat, turpis arcu dignissim dolor, eu tristique orci justo in erat.</p>
+                <p>Más información sobre nuestro proyecto y lo que hacemos.</p>
+            </div>
+            <div class="col-md-4">
+                <h2>Video Destacado</h2>
+                <!-- Embed de video de YouTube -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/K5pkkuiyRzk" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
